@@ -1,14 +1,59 @@
+import React from 'react';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
+
+const styles = {
+    footer: {
+        backgroundColor: "white",
+        flexShrink: "none"
+    },
+    icon: {
+        height: 20,
+        width: 20,
+        marginLeft: 5
+    }
+}
 export default function Footer() {
     return (
-    <footer class="py-5">
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>Developed By: Ian Vignolles-Jeong</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        </ul>
-      </div>
-    </footer>
+        <footer
+            id="sticky-footer"
+            className="py-1 bg-light text-black-50"
+            style={styles.footer}>
+
+            <div className="container text-dark text-center justify-content-center">
+                <h5> Developed By Ian Vignolles-Jeong</h5>
+
+
+                <a
+                    href="https://www.linkedin.com/in/ian-vignolles-jeong-3916571b0/"
+                    rel="noreferrer"
+                    target="_blank">
+
+                    <img
+                        src={linkedin}
+                        alt="linkedin"
+                        style={styles.icon} />
+                </a>
+
+                <a
+                    href="https://github.com/IVignollesJeong"
+                    rel="noreferrer"
+                    target="_blank">
+
+                    <img
+                        src={github}
+                        alt="github"
+                        style={styles.icon} />
+                </a>
+
+
+                <br />
+
+                <small>
+                    Copyright 2023 &copy; Ian Vignolles-Jeong
+                </small>
+
+            </div>
+        </footer>
     )
 }
