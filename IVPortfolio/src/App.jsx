@@ -5,30 +5,22 @@ import Navbar from './components/Navbar'
 import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
-  let Component
-  switch (window.location.pathname) {
-    case "/":
-      Component = About
-      break
-    case "/portfolio":
-      Component = Portfolio
-      break
-    case "/resume":
-      Component = Resume
-      break
-    case "/contact":
-      Component = Contact
-      break
-  }
-
   return (
     <>
       <Navbar />
       <div className="container">
-      <Component />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
+      <Footer />
     </>
   )
 }
