@@ -3,12 +3,19 @@
 }
 
 body {
+  background-image: url(../src/assets/background.png);
+  background-size: 100%;
   margin: 0;
 }
 
 .container {
   margin: 1rem;
   text-align: center;
+  color: aliceblue;
+}
+
+.col {
+  width:100%;
 }
 
 .nav {

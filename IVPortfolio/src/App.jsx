@@ -7,6 +7,7 @@ import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
+import backgroundImage from '../src/assets/background.png'
 
 function App() {
   return (
