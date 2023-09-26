@@ -5,7 +5,7 @@ import github from '../assets/github.png';
 const styles = {
     footer: {
         backgroundColor: "white",
-        flexShrink: "none"
+        flexShrink: "none",
     },
     icon: {
         height: 20,

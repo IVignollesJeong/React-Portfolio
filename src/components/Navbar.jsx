@@ -1,10 +1,10 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function Navbar() {
 
-    return <nav className="nav py-3 sticky-top">
-        <Link to="/" className="nav-title mx-4">IV</Link>
+    return <nav className="nav py-3 sticky-top navbar-dark shadow-5">
+        <Link to="/" className="nav-title mx-4" id="iv">IV</Link>
         <ul>
-            <CustomLink to="/">About Me</CustomLink>
+            <CustomLink className="" to="/">About Me</CustomLink>
             <CustomLink to="/portfolio">Portfolio</CustomLink>
             <CustomLink to="/resume">Resume</CustomLink>
             <CustomLink to="/contact">Contact</CustomLink>

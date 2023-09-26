@@ -12,6 +12,7 @@ body {
   margin: 1rem;
   text-align: center;
   color: aliceblue;
+  padding-bottom: 100px;
 }
 
 .col {
@@ -19,8 +20,7 @@ body {
 }
 
 .nav {
-  background-color: #333;
-  color: white;
+  color: rgb(238, 238, 232);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,6 +49,48 @@ body {
   background-color: #777;
 }
 
+#iv {
+  color: white;
+}
+
 footer {
   background-color: #999;
+}
+
+.about {
+  box-shadow: -1em 0 5em rgba(220, 162, 2, 0.259);
+  margin-bottom: 30px;
+}
+
+.abouttext {
+  margin-bottom: 10px;
+  text-shadow: rgba(255, 204, 0, 0.352) 1px 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav  {
+    text-align: center;
+    display: block;
+    justify-content: center;
+  }
+  #iv {display:none;}
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  #img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+#sticky-footer {
+  flex: auto;
+  position: relative;
+  
+  width: 100%;
+  height:auto;
+ 
 }

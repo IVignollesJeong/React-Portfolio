@@ -5,7 +5,7 @@ export default function Resume() {
       <div>
         <h3>Resume</h3>
      <a href="./src/assets/R1.png" target="_blank" download="R1">
-      <img src={res} width="500" height="600"
+      <img src={res} width="500" height="600" id="img"
           alt="Resume" />
           </a>
       </div>
