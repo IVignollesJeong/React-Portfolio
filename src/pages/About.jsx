@@ -1,8 +1,10 @@
+import headshot from "../assets/headshot.png"
+
 export default function About() {
     return (
       <div>
         <h2>About Me:</h2>
-        <img src="./src/assets/headshot.png" width="300" height="400"></img>
+        <img src={headshot} width="300" height="400"></img>
       <p>Welcome to the Ian Vignolles-Jeong's professional portfolio! As an aspiring web app developer, it brings me
         great joy creating new applications and having the opportunity to showcase them here! Below are a few examples
         of my work. More applications will be displayed on this page as time progresses, with varying uses and designs!

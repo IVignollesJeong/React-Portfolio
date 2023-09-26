@@ -1,3 +1,9 @@
+import maryzeImg from "../assets/maryze.png";
+import krapyakImg from "../assets/Krapyak.png";
+import employee from "../assets/node.png";
+import passgen from "../assets/passgen.png";
+import jate from "../assets/JATE.png";
+
 export default function Portfolio() {
     return (
         <div class="container text-center">
@@ -7,7 +13,7 @@ export default function Portfolio() {
                
                     <div class="card w-75 mx-auto mb-3 text-white bg-dark" >
                     <a href="https://maryze-t1p2-1c897d7fd819.herokuapp.com/" target="_blank">
-                            <img src="../src/assets/maryze.png" class="card-img-top"
+                            <img src={maryzeImg} class="card-img-top"
                                 alt="JavaScript password-generator" />
                         </a>
                         <div class="card-body text-center">
@@ -29,7 +35,7 @@ export default function Portfolio() {
               
                     <div class="card w-75 mx-auto mb-3 text-white bg-dark">
                     <a href="https://ronin1702.github.io/krapyak/" target="_blank">
-                            <img src="../src/assets/Krapyak.png" class="card-img-top"
+                            <img src={krapyakImg} class="card-img-top"
                                 alt="JavaScript password-generator" />
                         </a>
                         <div class="card-body text-center">
@@ -52,7 +58,7 @@ export default function Portfolio() {
            
                     <div class="card w-75 mx-auto mb-3 text-white bg-dark">
                     <a href="https://github.com/IVignollesJeong/SQL-employee-tracker" target="_blank">
-                            <img src="../src/assets/node.png" class="card-img-top"
+                            <img src={employee} class="card-img-top"
                                 alt="JavaScript password-generator" />
                         </a>
                         <div class="card-body text-center">
@@ -75,7 +81,7 @@ export default function Portfolio() {
            
                     <div class="card w-75 mx-auto mb-3 text-white bg-dark">
                         <a href="https://ivignollesjeong.github.io/password-generator/" target="_blank">
-                            <img src="../src/assets/passgen.png" class="card-img-top"
+                            <img src={passgen} class="card-img-top"
                                 alt="JavaScript password-generator" />
                         </a>
                         <div class="card-body text-center">
@@ -97,7 +103,7 @@ export default function Portfolio() {
           
                     <div class="card w-75 mx-auto mb-3 text-white bg-dark">
                         <a href="https://hidden-crag-78459-c5072bd38f82.herokuapp.com/" target="_blank">
-                            <img src="../src/assets/JATE.png" class="card-img-top"
+                            <img src={jate} class="card-img-top"
                                 alt="JavaScript password-generator" />
                         </a>
                         <div class="card-body text-center">
