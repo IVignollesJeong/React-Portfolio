@@ -59,8 +59,8 @@ The application functions as follows:
 ## Credits
 
 [React NPM package](https://www.npmjs.com/package/react) </br>
-[Vite NPM package](https://www.npmjs.com/package/vite)
-[BootStrap Styling](https://getbootstrap.com/)
+[Vite NPM package](https://www.npmjs.com/package/vite) </br>
+[BootStrap Styling](https://getbootstrap.com/) </br>
 OSU Bootcamp notes</br>
 
 ## License
